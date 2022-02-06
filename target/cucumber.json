@@ -1,0 +1,315 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-02-06T18:50:42.929Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2065750900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.roofstacks.step_definitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "",
+        "description": "",
+        "id": "qa-ui-test-case;",
+        "after": [
+          {
+            "result": {
+              "duration": 738351500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.roofstacks.step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1043546700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the user is on the google main page",
+            "match": {
+              "location": "com.roofstacks.step_definitions.taskStepDef.the_user_is_on_the_google_main_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 13963600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "the page title should be \"Google\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Google\"",
+                  "offset": 25
+                }
+              ],
+              "location": "com.roofstacks.step_definitions.taskStepDef.the_page_title_should_be(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2181238600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "the user search \"Roof Stack Yazılım\" on google",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Roof Stack Yazılım\"",
+                  "offset": 16
+                }
+              ],
+              "location": "com.roofstacks.step_definitions.taskStepDef.the_user_search_on_google(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 14750429200,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "the user selected \"https://roofstacks.com\" link from the options",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://roofstacks.com\"",
+                  "offset": 18
+                }
+              ],
+              "location": "com.roofstacks.step_definitions.taskStepDef.the_user_selected_link_from_the_options(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 17598600,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "the page title should be \"Home Page - Roof Stacks\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Home Page - Roof Stacks\"",
+                  "offset": 25
+                }
+              ],
+              "location": "com.roofstacks.step_definitions.taskStepDef.the_page_title_should_be(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 6412691100,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "the user clicks to \"Career\" module",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Career\"",
+                  "offset": 19
+                }
+              ],
+              "location": "com.roofstacks.step_definitions.taskStepDef.the_user_clicks_to_module(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6026100,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "the page title should be \"Engineering Careers - Roof Stacks\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Engineering Careers - Roof Stacks\"",
+                  "offset": 25
+                }
+              ],
+              "location": "com.roofstacks.step_definitions.taskStepDef.the_page_title_should_be(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2931007600,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "the user selects \"Product\" position",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Product\"",
+                  "offset": 17
+                }
+              ],
+              "location": "com.roofstacks.step_definitions.taskStepDef.the_user_selects_position(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 8119500,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "the page title should be \"Product - Roof Stacks\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Product - Roof Stacks\"",
+                  "offset": 25
+                }
+              ],
+              "location": "com.roofstacks.step_definitions.taskStepDef.the_page_title_should_be(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 834202000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "the user selects \"Lead Product Tester\" position",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Lead Product Tester\"",
+                  "offset": 17
+                }
+              ],
+              "location": "com.roofstacks.step_definitions.taskStepDef.the_user_selects_position(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 12967200,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "the page title should be \"Lead Product Tester - Roof Stacks\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Lead Product Tester - Roof Stacks\"",
+                  "offset": 25
+                }
+              ],
+              "location": "com.roofstacks.step_definitions.taskStepDef.the_page_title_should_be(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 251477300,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "the user clicks to Send CV button",
+            "match": {
+              "location": "com.roofstacks.step_definitions.taskStepDef.the_user_clicks_to_Send_CV_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 218476900,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "the user sends to \"xxx@gmail.com\" as an email address",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"xxx@gmail.com\"",
+                  "offset": 18
+                }
+              ],
+              "location": "com.roofstacks.step_definitions.taskStepDef.the_user_sends_to_as_an_email_address(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 67318800,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "the user upload a file to send CV",
+            "match": {
+              "location": "com.roofstacks.step_definitions.taskStepDef.the_user_upload_a_file_to_send_CV()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 113658400,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "the user clicks to upload button",
+            "match": {
+              "location": "com.roofstacks.step_definitions.taskStepDef.the_user_clicks_to_upload_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5152743900,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "the percent should be \"100%\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"100%\"",
+                  "offset": 22
+                }
+              ],
+              "location": "com.roofstacks.step_definitions.taskStepDef.the_percent_should_be(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@wip"
+          }
+        ]
+      }
+    ],
+    "name": "QA UI Test Case",
+    "description": "",
+    "id": "qa-ui-test-case",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/task.feature",
+    "tags": []
+  }
+]

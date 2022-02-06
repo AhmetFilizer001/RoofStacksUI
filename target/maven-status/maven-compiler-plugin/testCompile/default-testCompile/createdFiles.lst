@@ -1,0 +1,11 @@
+com\roofstacks\page\GooglePage.class
+com\roofstacks\utilities\BrowserUtils.class
+com\roofstacks\step_definitions\taskStepDef.class
+com\roofstacks\page\RoofHomePage.class
+com\roofstacks\step_definitions\Hooks.class
+com\roofstacks\runner\CukesRunner.class
+com\roofstacks\utilities\ConfigurationReader.class
+com\roofstacks\utilities\Driver.class
+com\roofstacks\page\RoofCareerPage.class
+com\roofstacks\page\BasePage.class
+com\roofstacks\runner\FailedTestRunner.class

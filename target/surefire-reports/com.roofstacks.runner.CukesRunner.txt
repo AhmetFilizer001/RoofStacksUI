@@ -1,0 +1,7 @@
+-------------------------------------------------------------------------------
+Test set: com.roofstacks.runner.CukesRunner
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 14.289 s <<< FAILURE! - in com.roofstacks.runner.CukesRunner
+EMPTY_NAME(QA UI Test Case)  Time elapsed: 13.727 s  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<...me Page - Roof Stack[]> but was:<...me Page - Roof Stack[s]>
+
